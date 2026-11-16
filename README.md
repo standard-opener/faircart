@@ -21,7 +21,20 @@ and how much can each person contribute without exceeding an agreed limit?
 
 ## Quick start
 
-From the project directory:
+Install the released package from PyPI:
+
+```bash
+python -m pip install faircart-share
+python -m faircart --version
+python -m faircart demo --output my-calculator.html
+```
+
+The calculator command works without a source checkout. To run the file-based
+examples and tests below, download and extract the
+[source repository](https://github.com/standard-opener/faircart), then run commands
+from the directory containing `pyproject.toml`.
+
+To install from source instead:
 
 ```bash
 python -m pip install .

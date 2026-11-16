@@ -1,4 +1,5 @@
 include LICENSE START_HERE.md
+include FairCart_Demo.html
 recursive-include examples *.json *.py *.ipynb
 recursive-include tests *.py
 recursive-include src/faircart/assets *.css *.js *.json
