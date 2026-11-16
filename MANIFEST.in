@@ -1,0 +1,4 @@
+include LICENSE START_HERE.md
+recursive-include examples *.json *.py *.ipynb
+recursive-include tests *.py
+recursive-include src/faircart/assets *.css *.js *.json

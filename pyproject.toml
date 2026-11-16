@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77.0.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "faircart-share"
+version = "1.0.0"
+description = "Group checkout planning with personal budgets and protected solo prices"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = []
+keywords = ["shopping", "coupons", "cost-sharing", "optimization"]
+classifiers = ["Programming Language :: Python :: 3", "Operating System :: OS Independent"]
+
+[project.scripts]
+faircart = "faircart.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+faircart = ["assets/*.js", "assets/*.css", "assets/*.json"]

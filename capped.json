@@ -1,0 +1,57 @@
+{
+  "title": "Small budget, workable plan",
+  "currency": "HKD",
+  "people": [
+    {
+      "id": "amy",
+      "name": "Amy",
+      "budget": "10.00"
+    },
+    {
+      "id": "ben",
+      "name": "Ben",
+      "budget": "60.00"
+    },
+    {
+      "id": "cara",
+      "name": "Cara",
+      "budget": "72.00"
+    }
+  ],
+  "items": [
+    {
+      "id": "item-amy",
+      "owner": "amy",
+      "name": "Stationery",
+      "unit_price": "12.00",
+      "quantity": 1
+    },
+    {
+      "id": "item-ben",
+      "owner": "ben",
+      "name": "Groceries",
+      "unit_price": "48.00",
+      "quantity": 1
+    },
+    {
+      "id": "item-cara",
+      "owner": "cara",
+      "name": "Household items",
+      "unit_price": "60.00",
+      "quantity": 1
+    }
+  ],
+  "store": {
+    "shipping_fee": "12.00",
+    "free_shipping_at": "100.00"
+  },
+  "coupons": [
+    {
+      "id": "SAVE12",
+      "kind": "fixed",
+      "min_subtotal": "100.00",
+      "amount": "12.00",
+      "owner": null
+    }
+  ]
+}
