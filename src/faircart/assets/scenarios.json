@@ -1,0 +1,294 @@
+[
+  {
+    "id": "shared",
+    "label": "Shared savings",
+    "cart": {
+      "title": "Shared savings, protected prices",
+      "currency": "HKD",
+      "people": [
+        {
+          "id": "amy",
+          "name": "Amy",
+          "budget": "20.00"
+        },
+        {
+          "id": "ben",
+          "name": "Ben",
+          "budget": "60.00"
+        },
+        {
+          "id": "cara",
+          "name": "Cara",
+          "budget": "72.00"
+        }
+      ],
+      "items": [
+        {
+          "id": "item-amy",
+          "owner": "amy",
+          "name": "Stationery",
+          "unit_price": "12.00",
+          "quantity": 1
+        },
+        {
+          "id": "item-ben",
+          "owner": "ben",
+          "name": "Groceries",
+          "unit_price": "48.00",
+          "quantity": 1
+        },
+        {
+          "id": "item-cara",
+          "owner": "cara",
+          "name": "Household items",
+          "unit_price": "60.00",
+          "quantity": 1
+        }
+      ],
+      "store": {
+        "shipping_fee": "12.00",
+        "free_shipping_at": "100.00"
+      },
+      "coupons": [
+        {
+          "id": "SAVE12",
+          "kind": "fixed",
+          "min_subtotal": "100.00",
+          "amount": "12.00",
+          "owner": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "capped",
+    "label": "Budget rescue",
+    "cart": {
+      "title": "Small budget, workable plan",
+      "currency": "HKD",
+      "people": [
+        {
+          "id": "amy",
+          "name": "Amy",
+          "budget": "10.00"
+        },
+        {
+          "id": "ben",
+          "name": "Ben",
+          "budget": "60.00"
+        },
+        {
+          "id": "cara",
+          "name": "Cara",
+          "budget": "72.00"
+        }
+      ],
+      "items": [
+        {
+          "id": "item-amy",
+          "owner": "amy",
+          "name": "Stationery",
+          "unit_price": "12.00",
+          "quantity": 1
+        },
+        {
+          "id": "item-ben",
+          "owner": "ben",
+          "name": "Groceries",
+          "unit_price": "48.00",
+          "quantity": 1
+        },
+        {
+          "id": "item-cara",
+          "owner": "cara",
+          "name": "Household items",
+          "unit_price": "60.00",
+          "quantity": 1
+        }
+      ],
+      "store": {
+        "shipping_fee": "12.00",
+        "free_shipping_at": "100.00"
+      },
+      "coupons": [
+        {
+          "id": "SAVE12",
+          "kind": "fixed",
+          "min_subtotal": "100.00",
+          "amount": "12.00",
+          "owner": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "split",
+    "label": "Split orders",
+    "cart": {
+      "title": "Two orders beat one",
+      "currency": "HKD",
+      "people": [
+        {
+          "id": "amy",
+          "name": "Amy",
+          "budget": "40.00"
+        },
+        {
+          "id": "ben",
+          "name": "Ben",
+          "budget": "20.00"
+        },
+        {
+          "id": "cara",
+          "name": "Cara",
+          "budget": "40.00"
+        },
+        {
+          "id": "dan",
+          "name": "Dan",
+          "budget": "20.00"
+        }
+      ],
+      "items": [
+        {
+          "id": "item-amy",
+          "owner": "amy",
+          "name": "Stationery",
+          "unit_price": "35.00",
+          "quantity": 1
+        },
+        {
+          "id": "item-ben",
+          "owner": "ben",
+          "name": "Groceries",
+          "unit_price": "15.00",
+          "quantity": 1
+        },
+        {
+          "id": "item-cara",
+          "owner": "cara",
+          "name": "Household items",
+          "unit_price": "35.00",
+          "quantity": 1
+        },
+        {
+          "id": "item-dan",
+          "owner": "dan",
+          "name": "Snacks",
+          "unit_price": "15.00",
+          "quantity": 1
+        }
+      ],
+      "store": {
+        "shipping_fee": "5.00",
+        "free_shipping_at": "50.00"
+      },
+      "coupons": [
+        {
+          "id": "AMY15",
+          "kind": "fixed",
+          "min_subtotal": "50.00",
+          "amount": "15.00",
+          "owner": "amy"
+        },
+        {
+          "id": "CARA15",
+          "kind": "fixed",
+          "min_subtotal": "50.00",
+          "amount": "15.00",
+          "owner": "cara"
+        }
+      ]
+    }
+  },
+  {
+    "id": "impossible",
+    "label": "Budget shortfall",
+    "cart": {
+      "title": "Budget limits cannot cover checkout",
+      "currency": "HKD",
+      "people": [
+        {
+          "id": "amy",
+          "name": "Amy",
+          "budget": "10.00"
+        },
+        {
+          "id": "ben",
+          "name": "Ben",
+          "budget": "30.00"
+        },
+        {
+          "id": "cara",
+          "name": "Cara",
+          "budget": "40.00"
+        }
+      ],
+      "items": [
+        {
+          "id": "item-amy",
+          "owner": "amy",
+          "name": "Stationery",
+          "unit_price": "12.00",
+          "quantity": 1
+        },
+        {
+          "id": "item-ben",
+          "owner": "ben",
+          "name": "Groceries",
+          "unit_price": "48.00",
+          "quantity": 1
+        },
+        {
+          "id": "item-cara",
+          "owner": "cara",
+          "name": "Household items",
+          "unit_price": "60.00",
+          "quantity": 1
+        }
+      ],
+      "store": {
+        "shipping_fee": "12.00",
+        "free_shipping_at": "100.00"
+      },
+      "coupons": [
+        {
+          "id": "SAVE12",
+          "kind": "fixed",
+          "min_subtotal": "100.00",
+          "amount": "12.00",
+          "owner": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "topup",
+    "label": "Top-up trap",
+    "cart": {
+      "title": "The free-shipping trap",
+      "currency": "HKD",
+      "people": [
+        {
+          "id": "amy",
+          "name": "Amy",
+          "budget": "100.00"
+        }
+      ],
+      "items": [
+        {
+          "id": "item-amy",
+          "owner": "amy",
+          "name": "Stationery",
+          "unit_price": "58.00",
+          "quantity": 1
+        }
+      ],
+      "store": {
+        "shipping_fee": "12.00",
+        "free_shipping_at": "70.00"
+      },
+      "coupons": []
+    }
+  }
+]
